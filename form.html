@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>form</title>
+</head>
+<body>
+    <form id="frm1" action="table.html" method="post">
+    <fieldset>
+            <legend>personal detaiks</legend>
+        <label for="name">Name*</label>
+        <input type="text" id="txt1" name="txt1" value="enter name" required></br>
+        <label for="password">password</label>
+        <input type="password" value="enter password" maxlength="12" minlength="8">
+        <textarea name="address" id="ads1" cols="10" rows="10"></textarea>
+        <input type="submit" value="click here"></br>
+        <label for="gender">gender</label></br>
+        <input type="radio" name="rad1" id="rad1" value="Male">Male
+        <input type="radio" name="rad1" id="rad2" value="Female">Female
+        <input type="radio" name="rad1" id="rad3" value="Other">Other
+        <input type="checkbox" name="ck1" value="cricket" checked>cricket
+        <input type="checkbox" name="ck1" value="F1"> F1 race
+        <input type="checkbox" name="ck1" value="moto gp" >moto gp
+        <input type="checkbox" name="ck1" value="football" >football
+        <label for="branch">branch</label>
+        <br>
+        <legend>educational details</legend>
+        <select name="branch" id="drplst1" size="4" multiple> 
+            <optgroup label="Engineering">
+            <option value="cse" name="cse">cse</option>
+            <option value="eee" name="eee">eee</option>
+            <option value="ce" name="ce">ce</option>
+            <option value="me" name="me">me</option>
+            </optgroup>
+        </select>
+        <label for="id">upload id</label>
+        <input type="file" accept="*/image"><br>
+        email: <input type="email">
+        range: <input type="range">
+        colour: <input type="color">
+    </fieldset>
+    </form>
+</body>
+</html>
